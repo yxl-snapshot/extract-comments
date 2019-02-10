@@ -26,15 +26,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "esprima-extract-comments": "^1.1.0",
-    "parse-code-context": "^1.0.0"
+    "esprima-extract-comments": "git+https://github.com/yxl-snapshot/esprima-extract-comments",
+    "parse-code-context": "git+https://github.com/yxl-snapshot/parse-code-context"
   },
   "devDependencies": {
-    "babel-extract-comments": "^1.0.0",
-    "espree-extract-comments": "^0.1.0",
-    "gulp-format-md": "^2.0.0",
-    "mocha": "^5.2.0",
-    "time-diff": "^0.3.1"
+    "mocha": "^5.2.0"
   },
   "keywords": [
     "ast",
